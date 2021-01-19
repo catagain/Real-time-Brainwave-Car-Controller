@@ -15,6 +15,8 @@
      在cmd打入以下指令<br>
     ```
     pip install pylsl
+    ```<br>
+    ```
     pip install easytello
     ```<br>
      或是執行[install_python_library.bat](https://github.com/catagain/Real-time-Brainwave-Car-Controller/blob/main/install_python_library.bat)內的批次檔
