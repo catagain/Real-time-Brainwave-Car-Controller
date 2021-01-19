@@ -8,6 +8,8 @@
     - [連結](http://openvibe.inria.fr/downloads/)
   4. python 3.9.1<br>
     - [連結](https://www.python.org/downloads/)<br>
+    - 在安裝python時，要記得選enable path的選項
+    ![image](python_install.png) <br>
     - 請盡可能先安裝python，因為python有自帶底下安裝函式庫時需要的工具pip。
   5. python 函式庫安裝<br>
      在cmd打入以下指令<br>
