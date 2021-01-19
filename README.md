@@ -19,6 +19,7 @@
     ```
     pip install easytello
     ```<br>
+    可以透過在windows的資料夾的的路徑那欄打入cmd來叫出cmd畫面<br>
      或是執行[install_python_library.bat](https://github.com/catagain/Real-time-Brainwave-Car-Controller/blob/main/install_python_library.bat)內的批次檔
     
     
