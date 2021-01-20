@@ -34,11 +34,11 @@ while True:
     ratio = (sum(list(q.queue))/len(list(q.queue)))
 
 
-    if ratio>0.1*queue_len and len(list(q.queue)) == queue_len:
+    if ratio>0.1 and len(list(q.queue)) == queue_len:
         print("take off",ratio)
         my_drone.takeoff()
         
-    elif ratio<0.02*queue_len:
+    elif ratio<0:
         print("land it",ratio)
         my_drone.land()
         
