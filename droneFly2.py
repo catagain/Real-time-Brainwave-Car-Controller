@@ -14,15 +14,11 @@ streams = resolve_stream('name', 'OpenViBE Stream1')
 
 # create a new inlet to read from the stream
 inlet = StreamInlet(streams[0])
-takeOffOrNot = 0
 while True:
     # get a new sample (you can also omit the timestamp part if you're not
     # interested in it)
     sample, timestamp = inlet.pull_sample()
-    if(sample[0]>0):
-        tmp = 1
-    else:
-        tmp = 0
+
         
     if q.qsize()<queue_len:
         q.put(sample[0])
