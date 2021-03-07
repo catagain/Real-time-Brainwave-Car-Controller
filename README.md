@@ -19,7 +19,7 @@
     ```
     pip install easytello
     ```<br>
-    You can have cmd screen by typing cmd in windows search<br>
+    You can have cmd screen by typing "cmd" in windows search<br>
      Or execute[install_python_library.bat](https://github.com/catagain/Real-time-Brainwave-Car-Controller/blob/main/install_python_library.bat)內的批次檔
     
     
